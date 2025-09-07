@@ -13,7 +13,7 @@ function sumArray(arr) {
 function filterArray(arr, conditionFn) {
   return arr.filter(conditionFn);
 }
-const numbers = [5, 3, 9, 1, 12, 7];
+const numbers = [];
 console.log(MaxMin(numbers)); 
 console.log(sumArray(numbers));           
 console.log(filterArray(numbers, num => num > 5));
